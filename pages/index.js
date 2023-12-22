@@ -6,11 +6,19 @@ import Top from "@/components/nav/Top";
 import Experience from "@/components/experience/Experience";
 import Projects from "@/components/projects/Project";
 import Link from "next/link";
+import Head from 'next/head'
+
 
 const index = () => { 
   
   return ( 
     <div>
+       <Head>
+        <title>Esla Dan.</title>
+        <meta property="og:description" content="The awsome developer" key="title" />
+        <meta property="og:image" content="https://esladan.eslatra.com/imgs/me.svg" key="title" />
+
+      </Head>
     <div className="px-2 sm:px-5 md:px-10 lg:px-20 xl:px-64 relative">
       <div className="absolute w-full h-full left-0  bg-[url('/imgs/bg-icons.svg')] bg-blend-multiply  -z-10 bg-[#000000b4]"></div>
       <Top/>
