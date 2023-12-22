@@ -7,7 +7,7 @@ import Experience from "@/components/experience/Experience";
 import Projects from "@/components/projects/Project";
 import Link from "next/link";
 
-const index = () => {
+const index = () => { 
   
   return ( 
     <div>
