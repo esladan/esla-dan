@@ -19,7 +19,7 @@ const Index = () => {
                 </li>
                 <li>
                     <a href="">
-                        <img src="./imgs/contact/call.svg" alt="" width={"70%"} />
+                        <img src="./imgs/contact/Call.svg" alt="" width={"70%"} />
 
                     </a>
                 </li>
