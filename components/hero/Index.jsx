@@ -2,7 +2,7 @@ const Index = () => {
     return (
         <div className="flex flex-col justify-center items-center py-20">
             <div className="img-box flex justify-center " id="contacts">
-                <img src="./imgs/me.svg" alt="" width={"60%"} />
+                <img src="./imgs/esla.jpeg" alt="" width={"60%"} className="rounded-full" />
             </div>
             <p>Hi, I'm Esla</p>
 

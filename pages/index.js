@@ -1,6 +1,5 @@
 import About from "@/components/about/About";
-import InfoBox from "@/components/skills_tools/InfoBox";
-import SkillsTools from "@/components/skills_tools/SkillsTools";
+import SkillsTools from "@/components/skills_tools";
 import Index from "@/components/hero/Index";
 import Top from "@/components/nav/Top";
 import Experience from "@/components/experience/Experience";
@@ -29,14 +28,7 @@ const index = () => {
     <div className="px-2 sm:px-5 md:px-10 lg:px-20 xl:px-64 rounded bg-[#2B2B2B] ">
     <About/>
   </div>
-  <div className="px-2 sm:px-5 md:px-10 lg:px-20 mt-10 xl:px-64 " id="skill_and_tools">
-  <SkillsTools/>
-
-  </div>
-  <div className="px-2 sm:px-5 md:px-10 lg:px-20 xl:px-64 mb-20 rounded bg-[#2B2B2B]">
-    <InfoBox/>
-  </div>
- 
+<SkillsTools/>
   <div className="" id="experience">
   <Experience/>
   </div>

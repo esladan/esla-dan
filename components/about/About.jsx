@@ -2,7 +2,7 @@ const About = () => {
     return ( 
         <div className="py-5" id="about">
             <h2 className="text-3xl font-bold">About</h2>
-            <p className="my-5 font-light text-justify">
+            <p className="my-5 font-light font-serif text-justify">
             Hello there! I'm Esla Dankuje Josiah, a versatile and dedicated software developer. With a wide range of skills encompassing backend and frontend development, Shopify development, AI development, data analysis, and video editing, I bring a diverse set of expertise to the table.
 Passionate about building valuable products, I embarked on a programming journey to create meaningful solutions. Currently, I'm engaged in exciting personal projects, while also gaining valuable experience by working with clients and organizations.
 Driven by my love for gaming, coding, and exploring new things, I approach each project with enthusiasm and a commitment to delivering exceptional results. As a clear communicator and detail-oriented professional, I strive to exceed client expectations and ensure their vision comes to life.
