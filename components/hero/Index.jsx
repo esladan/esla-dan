@@ -20,7 +20,7 @@ const Index = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="phoneto:+2348135829978">
+                    <Link href="tel:+2348135829978">
                         <img src="./imgs/contact/Call.svg" alt="" width={"70%"} />
 
                     </Link>
