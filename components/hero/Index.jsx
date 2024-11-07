@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Index = () => {
     return (
         <div className="flex flex-col justify-center items-center py-20">
@@ -8,26 +10,26 @@ const Index = () => {
 
             <ul className="grid grid-cols-4 my-5" id="contacts">
                 <li>
-                    <a href="">
+                    <Link href="https://github.com/esladan" >
                         <img src="./imgs/contact/GitHub.svg" alt="" width={"70%"} />
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
+                    <Link href="mailto:alsenad390@gmail.com">
                         <img src="./imgs/contact/Letter.svg" alt="" width={"70%"} />
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
+                    <Link href="phoneto:+2348135829978">
                         <img src="./imgs/contact/Call.svg" alt="" width={"70%"} />
 
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
+                    <Link href="https://www.linkedin.com/in/esla-dankuje-9455121b7/" >
                         <img src="./imgs/contact/LinkedIn 2.svg" alt="" width={"70%"} />
 
-                    </a>
+                    </Link>
                 </li>
 
             </ul>

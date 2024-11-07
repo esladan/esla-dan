@@ -13,21 +13,12 @@ const SkillsTools = ({skill, setSkill}) => {
                 
                 <SkillsToolsBox skill={skill} name={"JavaScript"} onclick={onclick} filename={'Js.svg'} custom={'-left-14'}/>
                 <SkillsToolsBox skill={skill} name={"Node.js"} onclick={onclick} filename={'Nodejs.svg'}/>
-
                 <SkillsToolsBox skill={skill} name={"Python"} onclick={onclick} filename={'Python.svg'}/>
-
                 <SkillsToolsBox skill={skill} name={"React"} onclick={onclick} filename={'React.svg'}/>
                 <SkillsToolsBox skill={skill} name={"MongoDB"} onclick={onclick} filename={'Mongodb.svg'}/>
-
                 <SkillsToolsBox skill={skill} name={"Machine Learning"} onclick={onclick} filename={'Machine-learning.svg'}/>
                 <SkillsToolsBox skill={skill} name={"REST API"} onclick={onclick} filename={'Backend-development.svg'} custom={'-right-14'}/>
 
-            
-
-                
-
-
-                
             </div>
              
             <div className="hidden md:block w-10 h-full bg-gradient-to-r from-[#000000] absolute top-0 md:-left-[60px] shadow-black"></div>
