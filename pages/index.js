@@ -30,7 +30,7 @@ const index = () => {
   </div>
 <SkillsTools/>
   <div className="" id="experience">
-  <Experience/>
+  <Experience/> 
   </div>
 
   <div className="project" id="project">
